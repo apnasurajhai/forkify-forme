@@ -130,6 +130,10 @@ const controlAtRecipe = async function (newRecipe) {
   //Uplaod the new recipe data
 };
 
+const newFeature = function () {
+  console.log('Welcome to the applicatipns');
+};
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -138,8 +142,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHanlerUpload(controlAtRecipe);
-  console.log('Helllo git');
-  console.log('HAcked');
+  newFeature();
 };
 init();
 
