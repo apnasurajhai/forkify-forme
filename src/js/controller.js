@@ -131,7 +131,7 @@ const controlAtRecipe = async function (newRecipe) {
 };
 
 const newFeature = function () {
-  console.log('Welcome to the applicatipns');
+  console.log('NO NO');
 };
 
 const init = function () {
@@ -142,7 +142,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHanlerUpload(controlAtRecipe);
-  newFeature();
 };
 init();
 
