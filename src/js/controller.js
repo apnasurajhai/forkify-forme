@@ -139,6 +139,7 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHanlerUpload(controlAtRecipe);
   console.log('Helllo git');
+  console.log('HAcked');
 };
 init();
 
